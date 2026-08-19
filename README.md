@@ -1,4 +1,4 @@
-# Hi, I'm Rishi Yadav 👋
+ Hi, I'm Rishi Yadav 👋
 
 ### Software Developer | AI & Computer Vision | Full-Stack Development
 
