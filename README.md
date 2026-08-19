@@ -1,10 +1,12 @@
  Hi, I'm Rishi Yadav 👋
 
-### Software Developer | AI & Computer Vision | Full-Stack Development
+### Software Developer • AI & Computer Vision • Backend & Full-Stack Development
 
-I’m a Computer Science student who enjoys building practical software systems — from **AI-powered computer vision applications** to **full-stack platforms and backend services**.
+I’m a **Computer Science student and developer** interested in building practical software systems that solve real-world problems.
 
-I like working on projects that involve real-world problem solving, system integration, and turning ideas into functional applications.
+My work spans **Computer Vision, Artificial Intelligence, Backend Engineering, Full-Stack Development, REST APIs, databases, and containerized applications**.
+
+I enjoy taking projects beyond prototypes — designing the architecture, integrating components, solving implementation challenges, and turning ideas into working systems.
 
 ---
 
@@ -12,62 +14,88 @@ I like working on projects that involve real-world problem solving, system integ
 
 ### 🚦 [Traffic Guardian Pro](https://github.com/Yadavrishi9500/Traffic-Guardian-Pro)
 
-**AI-Powered Dashcam Violation Detection System**
+**AI-Powered Dashcam Wrong-Way Vehicle Detection System**
 
-A real-time computer vision system designed to detect wrong-way vehicles from a moving dashcam feed, capture evidence, recognize license plates, and automatically log violations.
+Traffic Guardian Pro is an edge-AI computer vision system designed to detect wrong-way vehicles from a moving dashcam feed, capture photographic evidence, recognize license plates, and automatically log violations.
 
-**Key highlights:**
+#### Highlights
 
-* YOLOv8-based real-time vehicle detection
-* Multi-factor wrong-way detection algorithm
-* Vehicle tracking using spatial history
-* License plate recognition using EasyOCR
-* OpenCV-based OCR preprocessing
-* Automated evidence capture
-* Thread-safe violation logging
-* Tkinter monitoring dashboard
+* Real-time vehicle detection using **YOLOv8**
+* 12-frame spatial vehicle tracking
+* Multi-factor wrong-way detection logic
+* Direction analysis using movement and bounding-box growth
+* Close-range evidence capture
+* License plate recognition using **EasyOCR**
+* OpenCV-based plate preprocessing
+* Automatic violation logging
+* Thread-safe CSV persistence
+* Real-time Tkinter monitoring dashboard
 
-**Tech:** `Python` `YOLOv8` `OpenCV` `EasyOCR` `Tkinter` `Computer Vision`
+#### Tech Stack
+
+`Python` `YOLOv8` `OpenCV` `EasyOCR` `Tkinter` `Computer Vision` `OCR`
+
+> Built around the idea of using lightweight AI models and consumer-grade hardware for mobile traffic monitoring.
 
 ---
 
 ### 📝 [Form Builder & Response Management System](https://github.com/Yadavrishi9500/form-builder-app)
 
-**Full-Stack Internship Project | Team Lead**
+**Full-Stack Internship Project • Team Lead**
 
-A complete form-building platform that allows users to create dynamic forms, collect and manage responses, and export submission data.
+A complete form-building and response-management platform developed during my internship.
 
-As **Team Lead**, I contributed to both the technical development and coordination of the project, with a major focus on integrating the Flutter frontend with the FastAPI backend.
+The system allows users to create dynamic forms, collect responses, manage submissions, and export collected data through an integrated frontend and backend architecture.
 
-**Key highlights:**
+As **Team Lead**, I worked on both technical development and team coordination, with a major focus on connecting the Flutter frontend with the FastAPI backend and ensuring the complete application worked end-to-end.
+
+#### Highlights
 
 * Dynamic form creation
-* JWT authentication
-* REST API integration
-* Response collection and management
-* PDF and Excel exports
+* Multiple configurable field types
+* User registration and authentication
+* JWT-secured API requests
+* Response submission and management
+* Dynamic schema validation
+* File upload support
+* PDF export
+* Excel export
 * PostgreSQL persistence
-* Redis caching
-* Dockerized full-stack environment
-* Flutter Web served through Nginx
+* Redis integration
+* Flutter frontend
+* FastAPI REST backend
+* Dockerized development environment
+* Nginx-served Flutter Web application
 
-**Architecture**
+#### Architecture
 
 ```text
-Browser
-   │
-   ▼
-Flutter Web
-   │
-   ▼
-FastAPI
-   │
-   ├── PostgreSQL
-   │
-   └── Redis
+                    Browser
+                       │
+                       ▼
+                Flutter Web
+                       │
+                       ▼
+                    FastAPI
+                  /          \
+                 ▼            ▼
+           PostgreSQL       Redis
 ```
 
-**Tech:** `Flutter` `FastAPI` `Python` `PostgreSQL` `Redis` `SQLAlchemy` `Docker` `Nginx` `JWT`
+#### Tech Stack
+
+`Flutter` `Dart` `FastAPI` `Python` `PostgreSQL` `Redis` `SQLAlchemy` `JWT` `Docker` `Nginx`
+
+#### My Role
+
+* Team Lead
+* Frontend-backend integration
+* REST API integration
+* Authentication flow integration
+* API schema mapping
+* Debugging and issue resolution
+* End-to-end system coordination
+* Docker-based environment integration
 
 ---
 
@@ -75,81 +103,133 @@ FastAPI
 
 A Java-based application focused on structured application development and object-oriented programming.
 
-**Tech:** `Java` `Maven` `OOP`
+#### Tech Stack
+
+`Java` `Maven` `OOP`
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Technical Skills
 
 ### Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square\&logo=dart\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square\&logo=postgresql\&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
 
 ### Backend & APIs
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square\&logo=sqlalchemy\&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-02569B?style=flat-square)
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=flat-square" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+</p>
 
-### Frontend
+### Frontend & Application Development
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square\&logo=flutter\&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tkinter-3776AB?style=flat-square&logo=python&logoColor=white" />
+</p>
 
 ### AI & Computer Vision
 
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square\&logo=opencv\&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-FF6F00?style=flat-square)
+<p>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/YOLOv8-111F68?style=flat-square" />
+  <img src="https://img.shields.io/badge/Computer_Vision-FF6F00?style=flat-square" />
+  <img src="https://img.shields.io/badge/OCR-6A5ACD?style=flat-square" />
+</p>
 
-### Databases & Infrastructure
+### Databases
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square\&logo=nginx\&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+</p>
 
-### Tools
+### DevOps & Tools
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+</p>
 
 ---
 
-## 💡 What I’m Interested In
+## 🧠 Areas I Enjoy Working On
 
-* 🤖 Artificial Intelligence & Machine Learning
+* 🤖 Artificial Intelligence
 * 👁️ Computer Vision
 * ⚙️ Backend Engineering
 * 🌐 Full-Stack Development
+* 🔗 REST API Design & Integration
+* 🗄️ Database-Driven Applications
 * 🏗️ Software Architecture
 * 🐳 Containerization & Deployment
-* 🚀 Building practical real-world applications
+* 🚀 Real-World Software Projects
 
 ---
 
-## 📈 GitHub Stats
+## 💡 Engineering Interests
+
+I’m particularly interested in projects where software interacts with real-world problems.
+
+I enjoy working on:
+
+* Building complete systems rather than isolated components
+* Designing clean frontend-backend communication
+* Improving reliability and reducing false detections
+* Working with real-time computer vision pipelines
+* Designing APIs and database-backed applications
+* Debugging integration problems
+* Containerizing applications for reproducible deployment
+* Learning how software moves from prototype to production
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yadavrishi9500&show_icons=true&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yadavrishi9500&layout=compact&hide_border=true" height="165" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Yadavrishi9500&show_icons=true&hide_border=true&rank_icon=github" 
+    height="165"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yadavrishi9500&layout=compact&hide_border=true" 
+    height="165"
+  />
 </p>
 
 ---
 
 ## 🤝 Let's Connect
 
-I’m always interested in discussing **software engineering, AI, computer vision, backend systems, and interesting project ideas**.
+I'm always interested in connecting with developers and discussing **Software Engineering, AI/ML, Computer Vision, Backend Development, Full-Stack Development, and interesting technical projects**.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Yadavrishi9500-181717?style=for-the-badge\&logo=github)](https://github.com/Yadavrishi9500)
+<p>
+  <a href="https://www.linkedin.com/in/rishi-yadav-5a2783298/">
+    <img src="https://img.shields.io/badge/LinkedIn-Rishi_Yadav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](YOUR_LINKEDIN_URL)
+  <a href="https://github.com/Yadavrishi9500">
+    <img src="https://img.shields.io/badge/GitHub-Yadavrishi9500-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  <i>Building, learning, and improving one project at a time.</i>
+  <b>Build. Learn. Improve. Repeat.</b>
+</p>
+
+<p align="center">
+  <i>Turning ideas into practical software, one project at a time.</i>
 </p>
